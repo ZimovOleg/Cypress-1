@@ -1,0 +1,17 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "first tests with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "web_headed": "npx cypress open --browser --headed chrome --config cypress.config.js",
+    "mob_headed": "npx cypress open --browser --headed chrome --config-file cypress2.config.js",
+    "web_headless": "npx cypress run --browser --headless chrome --config cypress.config.js",
+    "mob_headless": "npx cypress run --browser --headless chrome --config-file cypress2.config.js"
+  },
+  "author": "OM",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.3.0"
+  }
+}
